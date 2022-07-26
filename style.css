@@ -1,0 +1,116 @@
+:root {
+    --pink-color: #FF2078;
+    --pink-bg-color: #FF2078;
+    --yellow-bg-color: #FFB428;
+    --blue-bg-color: #4036FB;
+    --black-bg-color: #000;
+}
+
+.navbar {
+    height: 70px;
+}
+
+.header-form {
+    position: relative;
+}
+
+.search-icon {
+    font-size: 23px;
+    color: gray;
+    position: absolute;
+    right: 30px;
+    top: 12px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+#carouselExampleControls {
+    background: #FCEAE8;
+    margin: 100px auto;
+}
+
+.slider-text {}
+
+.slider-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.slider-text .item-price {
+    color: var(--pink-color);
+}
+
+.slider-text .slider-btn {
+    width: 150px;
+    background: var(--pink-bg-color);
+    border: none;
+}
+
+.slider-img img {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+
+.catagories-section {
+    margin: 100px auto;
+}
+
+.catagories-item-one {
+    background: var(--yellow-bg-color)
+}
+
+.catagories-item-two {
+    background: var(--pink-bg-color)
+}
+
+.catagories-item-three {
+    background: var(--blue-bg-color)
+}
+
+.catagories-section img {
+    width: 100px;
+}
+
+.shoes-section {
+    margin: 100px 0;
+}
+
+.shoes-item .btn {
+    background: var(--pink-bg-color);
+    border: none;
+}
+
+.shoes-item .btn:hover {
+    background: var(--pink-bg-color);
+}
+
+
+
+.Bags-item .btn {
+    background: var(--pink-bg-color);
+    border: none;
+}
+
+.Bags-item .btn:hover {
+    background: var(--pink-bg-color);
+}
+
+.form-section {
+    margin: 100px auto;
+    background: #FCEAE8;
+}
+
+.form-content {
+    height: 300px;
+}
+
+.form-input .btn {
+    background: var(--pink-bg-color);
+    border: none;
+}
